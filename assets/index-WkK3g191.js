@@ -67,4 +67,4 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
  * LICENSE.md file in the root directory of this source tree.
  *
  * @license MIT
- */function Vg(i){return H.createElement(ng,{flushSync:Qg.flushSync,...i})}const Zg={},Kg=({})=>Rn.jsx("div",{className:Zg.home,children:"Home"}),Jg={},$g=({})=>Rn.jsx("div",{className:Jg.study,children:"Study"}),kg=xg([{path:"/",element:Rn.jsx(Kg,{})},{path:"/study",element:Rn.jsx($g,{})}],{basename:"/genai-course-front"});Bm.createRoot(document.getElementById("root")).render(Rn.jsx(H.StrictMode,{children:Rn.jsx(Vg,{router:kg})}));
+ */function Vg(i){return H.createElement(ng,{flushSync:Qg.flushSync,...i})}const Zg={},Kg=({})=>Rn.jsx("div",{className:Zg.home,children:"Home"}),Jg={},$g=({})=>Rn.jsx("div",{className:Jg.study,children:"Study"}),kg=xg([{path:"/",element:Rn.jsx(Kg,{})},{path:"/study",element:Rn.jsx($g,{})}],{basename:"/genai-course-front/"});Bm.createRoot(document.getElementById("root")).render(Rn.jsx(H.StrictMode,{children:Rn.jsx(Vg,{router:kg})}));
